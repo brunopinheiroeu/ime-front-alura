@@ -1,0 +1,123 @@
+/* HEADER */
+.main-container {
+  max-width: 80vw;
+  height: 100vh;
+  margin-left: 316px;
+  margin-right: var(--sz-panels-gap);
+}
+.header_navigation {
+  background-color: #090909;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  margin-top: var(--sz-panels-gap);
+  border-radius: var(--sz-panels-radio);
+}
+.header_navigation .navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header_navigation .navigation .arrow-left {
+  margin-right: 1.25rem;
+}
+.arrow-left,
+.arrow-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: var(--bg-icon);
+  background-color: var(--bg-arrow-color);
+  border-radius: var(--sz-buttons-radio);
+  border: none;
+}
+.header_login {
+  display: flex;
+  align-items: center;
+}
+.header_search {
+  display: flex;
+  align-items: center;
+  /* width: 364px; */
+  height: 48px;
+  margin-left: 8px;
+  background-color: #242424;
+  border-radius: var(--sz-buttons-radio);
+  border: 1px solid transparent;
+}
+.header_search img {
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+}
+.header_search input {
+  background-color: transparent;
+  border: none;
+  padding: 0 0 0 12px;
+  color: #b3b3b3;
+  width: 364px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrep;
+  outline: none;
+}
+
+.header_login .subscribe {
+  color: #a7a7a7;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: transparent;
+  margin-right: 32px;
+}
+
+.header_login .login {
+  width: 100px;
+  height: 48px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: var(--sz-buttons-radio);
+}
+.main_content {
+  background-color: var(--bg-panels);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  padding: 24px;
+  margin-top: var(--sz-panels-gap);
+  border-radius: var(--sz-panels-radio);
+  margin-bottom: var(--sz-panels-gap);
+}
+.content-title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+}
+.content {
+  padding-top: 24px;
+  display: flex;
+  gap: 14px;
+}
+.content_iten {
+  height: 200px;
+  width: 200px;
+  border-radius: var(--sz-panels-radio);
+}
+.content-a {
+  background-color: #006450;
+}
+.content-b {
+  background-color: #283ea3;
+}
+.content-c {
+  background-color: #8400e7;
+}
+.iten-title {
+  padding: 16px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}

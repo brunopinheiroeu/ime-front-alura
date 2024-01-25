@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/vars.css" />
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css" />
+    <link rel="stylesheet" href="./src/styles/main-content.css" />
+
+    <script
+      src="https://kit.fontawesome.com/cd9e0b5538.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="sidebar">
+      <nav class="sidebar_navigation">
+        <div class="logo">
+          <a href="">
+            <img src="./src/assets/icons/logo-spotify.png" alt="Spotify Logo" />
+          </a>
+        </div>
+
+        <ul>
+          <li>
+            <a href="">
+              <span class="fa-solid fa-house"></span>
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="fa-solid fa-magnifying-glass"></span>
+              <span>Search</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="sidebar_library">
+        <div class="library_content">
+          <button class="library_button">
+            <span class="fa fas fa-book"></span>
+            <span>Your Library</span>
+          </button>
+          <div class="library_icons">
+            <span class="fa fa-plus"></span>
+            <!-- <span class="fa fa-arrow-right"></span> -->
+          </div>
+        </div>
+        <section class="section-playlist">
+          <div class="section-playlist_content">
+            <span class="text title">Create your first playlist</span>
+            <span class="text subtitle">It's easy, we'll help you</span>
+            <button class="section-playlist_button">Create playlist</button>
+          </div>
+        </section>
+        <div class="cookies"><a href="">Cookies</a></div>
+        <div class="languages">
+          <button class="languages_button">
+            <span class="fa fa-globe"></span>
+            <span>English</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="main-container">
+        <nav class="header_navigation">
+          <div class="navigation">
+            <button class="arrow-left">
+              <img src="./src/assets/icons/small-left.png" alt="Left arrow" />
+            </button>
+            <button class="arrow-right">
+              <img src="src/assets/icons/small-right.png" alt="Right arrow" />
+            </button>
+            <div class="header_search">
+              <img src="src/assets/icons/search.png" alt="" />
+              <input
+                id="search-input"
+                type="text"
+                maxlength="800"
+                placeholder="What do you want to listen to?"
+              />
+            </div>
+          </div>
+
+          <div class="header_login">
+            <button class="subscribe">Sign up</button>
+            <button class="login">Log in</button>
+          </div>
+        </nav>
+        <div class="main_content">
+          <span class="content-title">Browse all</span>
+          <div class="content">
+            <div class="content_iten content-a">
+              <div class="iten-title">Podcast</div>
+            </div>
+            <div class="content_iten content-b">
+              <div class="iten-title">Audiobooks</div>
+            </div>
+            <div class="content_iten content-c">
+              <div class="iten-title">Live Events</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer_content">
+        <div class="footer_text">
+          <span class="text footer_title">Preview of Spotify</span>
+          <span class="text footer_subtitle"
+            >Sign up to get unlimited songs and podcasts with occasional ads. No
+            credit card needed.</span
+          >
+        </div>
+        <button class="footer_button">
+          <span>Sign up for free</span>
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>

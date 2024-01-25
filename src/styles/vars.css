@@ -1,0 +1,14 @@
+:root {
+  /* FONT */
+  --font-dm-sans: "DM Sans", sans-serif;
+
+  /* COLOURS */
+  --bg-panels: #121212;
+  --bg-icon: #202020;
+  --bg-arrow-color: rgba(0, 0, 0, 7);
+
+  /* SIZES */
+  --sz-panels-gap: 8px;
+  --sz-panels-radio: 8px;
+  --sz-buttons-radio: 50px;
+}
