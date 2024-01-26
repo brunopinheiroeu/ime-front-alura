@@ -3,25 +3,22 @@ body {
   font-family: var(--font-dm-sans);
 }
 .sidebar {
+  /* background-color: red; */
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
   padding: var(--sz-panels-gap);
   width: 300px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .sidebar_navigation {
   background-color: #121212;
   border-radius: var(--sz-panels-radio);
   padding: 16px 0 0 16px;
-}
-
-.logo {
-  /* background: #121212;
-    display: flex;
-    border-radius: 10px;
-    padding: 16px 0 0 16px; */
 }
 
 .logo img {
@@ -57,12 +54,17 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 0px 8px;
-  /* padding: 20px 20px 20px 40px; */
   color: #b3b3b3;
   font-weight: 600;
   font-size: 14px;
   margin-top: var(--sz-panels-gap);
   text-decoration: none;
+  flex-grow: 1;
+  margin-bottom: 86px;
+}
+.sidebar_library .library-top {
+}
+.sidebar_library .library-bottom {
 }
 .library_content {
   display: flex;
@@ -71,13 +73,11 @@ body {
 }
 .library_content .library_button {
   display: flex;
-  /* margin-right: 10px; */
   color: #b3b3b3;
   border: 0;
   background-color: transparent;
   font-size: 1rem;
   font-weight: 700;
-
   text-align: center;
   text-decoration: none;
   text-transform: none;
@@ -86,8 +86,6 @@ body {
 
 .library_content .library_button .fa {
   font-size: 20px;
-  /* margin-right: 10px; */
-  /* font-weight: 300; */
   padding-right: 8px;
 }
 .library_content .library_icons {
@@ -116,12 +114,10 @@ body {
   font-weight: 600;
   margin: 8px 0;
   padding: 16px 20px;
-  /* gap: 20px; */
 }
 .section-playlist .section-playlist_content {
   display: flex;
   flex-direction: column;
-  /* padding: 10px; */
   gap: 20px;
 }
 .section-playlist_content .text {

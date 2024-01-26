@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./src/styles/sidebar-footer.css" />
     <link rel="stylesheet" href="./src/styles/main-content.css" />
 
+    <link rel="stylesheet" href="./src/styles/media-queries.css" />
+
     <script
       src="https://kit.fontawesome.com/cd9e0b5538.js"
       crossorigin="anonymous"
@@ -39,29 +41,34 @@
         </ul>
       </nav>
       <div class="sidebar_library">
-        <div class="library_content">
-          <button class="library_button">
-            <span class="fa fas fa-book"></span>
-            <span>Your Library</span>
-          </button>
-          <div class="library_icons">
-            <span class="fa fa-plus"></span>
-            <!-- <span class="fa fa-arrow-right"></span> -->
+        <div class="library-top">
+          <div class="library_content">
+            <button class="library_button">
+              <span class="fa fas fa-book"></span>
+              <span>Your Library</span>
+            </button>
+            <div class="library_icons">
+              <span class="fa fa-plus"></span>
+              <!-- <span class="fa fa-arrow-right"></span> -->
+            </div>
           </div>
+
+          <section class="section-playlist">
+            <div class="section-playlist_content">
+              <span class="text title">Create your first playlist</span>
+              <span class="text subtitle">It's easy, we'll help you</span>
+              <button class="section-playlist_button">Create playlist</button>
+            </div>
+          </section>
         </div>
-        <section class="section-playlist">
-          <div class="section-playlist_content">
-            <span class="text title">Create your first playlist</span>
-            <span class="text subtitle">It's easy, we'll help you</span>
-            <button class="section-playlist_button">Create playlist</button>
+        <div class="library-bottom">
+          <div class="cookies"><a href="">Cookies</a></div>
+          <div class="languages">
+            <button class="languages_button">
+              <span class="fa fa-globe"></span>
+              <span>English</span>
+            </button>
           </div>
-        </section>
-        <div class="cookies"><a href="">Cookies</a></div>
-        <div class="languages">
-          <button class="languages_button">
-            <span class="fa fa-globe"></span>
-            <span>English</span>
-          </button>
         </div>
       </div>
     </div>
@@ -91,17 +98,39 @@
             <button class="login">Log in</button>
           </div>
         </nav>
+        <!--  -->
         <div class="main_content">
           <span class="content-title">Browse all</span>
-          <div class="content">
-            <div class="content_iten content-a">
-              <div class="iten-title">Podcast</div>
-            </div>
-            <div class="content_iten content-b">
-              <div class="iten-title">Audiobooks</div>
-            </div>
-            <div class="content_iten content-c">
-              <div class="iten-title">Live Events</div>
+          <div class="scroll-container">
+            <div class="cards_list">
+              <div class="cards card1">
+                <div class="card-title">Podcast</div>
+                <img src="src/assets/playlist/1.jpeg" alt="list-1" />
+              </div>
+              <div class="cards card2">
+                <div class="card-title">Audiobooks</div>
+                <img src="src/assets/playlist/2.png" alt="list-2" />
+              </div>
+              <div class="cards card3">
+                <div class="card-title">Live Events</div>
+                <img src="src/assets/playlist/3.jpeg" alt="list-3" />
+              </div>
+              <div class="cards card4">
+                <div class="card-title">Live Events</div>
+                <img src="src/assets/playlist/4.jpeg" alt="list-4" />
+              </div>
+              <div class="cards card5">
+                <div class="card-title">Live Events</div>
+                <img src="src/assets/playlist/5.jpeg" alt="list-5" />
+              </div>
+              <div class="cards card6">
+                <div class="card-title">Live Events</div>
+                <img src="src/assets/playlist/6.jpeg" alt="list-6" />
+              </div>
+              <div class="cards card7">
+                <div class="card-title">Live Events</div>
+                <img src="src/assets/playlist/7.jpeg" alt="list-7" />
+              </div>
             </div>
           </div>
         </div>

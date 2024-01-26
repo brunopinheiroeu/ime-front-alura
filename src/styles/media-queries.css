@@ -1,0 +1,25 @@
+@media (min-width: 700px) {
+  .cards_list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 920px) {
+  .cards_list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1140px) {
+  .cards_list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (min-width: 1360px) {
+  .cards_list {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media (min-width: 1580px) {
+  .cards_list {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
